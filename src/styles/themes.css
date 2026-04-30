@@ -1,0 +1,130 @@
+/* =============================================
+   GoTeacher — Themes
+   Dark (default) and light theme color definitions
+   ============================================= */
+
+/* ---- Dark Theme (Default) ---- */
+[data-theme="dark"] {
+  --color-primary: hsl(174, 80%, 42%);
+  --color-primary-light: hsl(174, 80%, 55%);
+  --color-primary-dark: hsl(174, 80%, 30%);
+  --color-primary-glow: hsla(174, 80%, 50%, 0.3);
+  --color-primary-subtle: hsla(174, 80%, 50%, 0.08);
+
+  --color-accent: hsl(45, 100%, 60%);
+  --color-accent-light: hsl(45, 100%, 70%);
+  --color-accent-glow: hsla(45, 100%, 60%, 0.25);
+
+  --color-success: hsl(145, 65%, 45%);
+  --color-success-light: hsl(145, 65%, 55%);
+  --color-success-glow: hsla(145, 65%, 45%, 0.2);
+
+  --color-error: hsl(0, 75%, 55%);
+  --color-error-light: hsl(0, 75%, 65%);
+  --color-error-glow: hsla(0, 75%, 55%, 0.2);
+
+  --color-warning: hsl(35, 95%, 55%);
+  --color-info: hsl(210, 80%, 55%);
+
+  /* Backgrounds */
+  --bg-root: hsl(225, 25%, 6%);
+  --bg-primary: hsl(225, 22%, 9%);
+  --bg-secondary: hsl(225, 20%, 12%);
+  --bg-card: hsl(225, 18%, 14%);
+  --bg-card-hover: hsl(225, 18%, 17%);
+  --bg-elevated: hsl(225, 16%, 18%);
+  --bg-input: hsl(225, 22%, 10%);
+  --bg-code: hsl(225, 30%, 7%);
+
+  /* Glass */
+  --bg-glass: hsla(225, 20%, 12%, 0.6);
+  --bg-glass-heavy: hsla(225, 20%, 12%, 0.85);
+  --glass-blur: blur(20px);
+  --glass-border: hsla(0, 0%, 100%, 0.06);
+
+  /* Text */
+  --text-primary: hsl(0, 0%, 95%);
+  --text-secondary: hsl(225, 10%, 70%);
+  --text-muted: hsl(225, 10%, 50%);
+  --text-inverse: hsl(225, 25%, 6%);
+
+  /* Borders */
+  --border-primary: hsl(225, 15%, 18%);
+  --border-subtle: hsl(225, 15%, 14%);
+  --border-strong: hsl(225, 15%, 25%);
+
+  /* Shadows */
+  --shadow-sm: 0 1px 3px hsla(0, 0%, 0%, 0.3), 0 1px 2px hsla(0, 0%, 0%, 0.2);
+  --shadow-md: 0 4px 12px hsla(0, 0%, 0%, 0.4), 0 2px 6px hsla(0, 0%, 0%, 0.3);
+  --shadow-lg: 0 12px 40px hsla(0, 0%, 0%, 0.5), 0 4px 16px hsla(0, 0%, 0%, 0.3);
+  --shadow-xl: 0 20px 60px hsla(0, 0%, 0%, 0.6), 0 8px 24px hsla(0, 0%, 0%, 0.4);
+  --shadow-glow: 0 0 30px var(--color-primary-glow);
+  --shadow-glow-accent: 0 0 30px var(--color-accent-glow);
+
+  /* Gradients */
+  --gradient-primary: linear-gradient(135deg, hsl(174, 80%, 42%), hsl(200, 80%, 50%));
+  --gradient-accent: linear-gradient(135deg, hsl(45, 100%, 55%), hsl(30, 100%, 55%));
+  --gradient-hero: linear-gradient(135deg, hsla(174, 80%, 42%, 0.15), hsla(200, 80%, 50%, 0.05));
+  --gradient-card: linear-gradient(135deg, hsla(0, 0%, 100%, 0.03), hsla(0, 0%, 100%, 0.01));
+  --gradient-border: linear-gradient(135deg, hsla(174, 80%, 50%, 0.4), hsla(200, 80%, 50%, 0.1));
+}
+
+/* ---- Light Theme ---- */
+[data-theme="light"] {
+  --color-primary: hsl(174, 80%, 35%);
+  --color-primary-light: hsl(174, 80%, 45%);
+  --color-primary-dark: hsl(174, 80%, 25%);
+  --color-primary-glow: hsla(174, 80%, 40%, 0.15);
+  --color-primary-subtle: hsla(174, 80%, 40%, 0.06);
+
+  --color-accent: hsl(40, 100%, 45%);
+  --color-accent-light: hsl(40, 100%, 55%);
+  --color-accent-glow: hsla(40, 100%, 45%, 0.15);
+
+  --color-success: hsl(145, 65%, 35%);
+  --color-success-light: hsl(145, 65%, 45%);
+  --color-success-glow: hsla(145, 65%, 35%, 0.1);
+
+  --color-error: hsl(0, 75%, 50%);
+  --color-error-light: hsl(0, 75%, 60%);
+  --color-error-glow: hsla(0, 75%, 50%, 0.1);
+
+  --color-warning: hsl(35, 95%, 45%);
+  --color-info: hsl(210, 80%, 45%);
+
+  --bg-root: hsl(220, 20%, 97%);
+  --bg-primary: hsl(220, 20%, 98%);
+  --bg-secondary: hsl(220, 15%, 95%);
+  --bg-card: hsl(0, 0%, 100%);
+  --bg-card-hover: hsl(220, 15%, 97%);
+  --bg-elevated: hsl(0, 0%, 100%);
+  --bg-input: hsl(220, 15%, 96%);
+  --bg-code: hsl(220, 20%, 95%);
+
+  --bg-glass: hsla(0, 0%, 100%, 0.7);
+  --bg-glass-heavy: hsla(0, 0%, 100%, 0.9);
+  --glass-blur: blur(20px);
+  --glass-border: hsla(0, 0%, 0%, 0.06);
+
+  --text-primary: hsl(225, 25%, 12%);
+  --text-secondary: hsl(225, 10%, 40%);
+  --text-muted: hsl(225, 10%, 55%);
+  --text-inverse: hsl(0, 0%, 98%);
+
+  --border-primary: hsl(220, 15%, 88%);
+  --border-subtle: hsl(220, 15%, 92%);
+  --border-strong: hsl(220, 15%, 80%);
+
+  --shadow-sm: 0 1px 3px hsla(0, 0%, 0%, 0.06), 0 1px 2px hsla(0, 0%, 0%, 0.04);
+  --shadow-md: 0 4px 12px hsla(0, 0%, 0%, 0.08), 0 2px 6px hsla(0, 0%, 0%, 0.06);
+  --shadow-lg: 0 12px 40px hsla(0, 0%, 0%, 0.1), 0 4px 16px hsla(0, 0%, 0%, 0.06);
+  --shadow-xl: 0 20px 60px hsla(0, 0%, 0%, 0.12), 0 8px 24px hsla(0, 0%, 0%, 0.08);
+  --shadow-glow: 0 0 20px var(--color-primary-glow);
+  --shadow-glow-accent: 0 0 20px var(--color-accent-glow);
+
+  --gradient-primary: linear-gradient(135deg, hsl(174, 80%, 35%), hsl(200, 80%, 45%));
+  --gradient-accent: linear-gradient(135deg, hsl(40, 100%, 45%), hsl(25, 100%, 45%));
+  --gradient-hero: linear-gradient(135deg, hsla(174, 80%, 40%, 0.08), hsla(200, 80%, 50%, 0.03));
+  --gradient-card: linear-gradient(135deg, hsla(0, 0%, 100%, 0.8), hsla(0, 0%, 100%, 0.4));
+  --gradient-border: linear-gradient(135deg, hsla(174, 80%, 40%, 0.3), hsla(200, 80%, 50%, 0.1));
+}
