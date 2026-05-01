@@ -3,6 +3,7 @@
 **Master Go the Interactive Way**
 
 GoTeacher is an interactive Go (Golang) learning platform — a single-page application that teaches Go through hands-on lessons, a built-in code editor/compiler, quizzes, and gamified progress tracking.
+<img width="1843" height="929" alt="image" src="https://github.com/user-attachments/assets/cfb9b7f9-c0b2-4087-ba29-97df71f8c1df" />
 
 ## Features
 
