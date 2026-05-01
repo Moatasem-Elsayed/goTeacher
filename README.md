@@ -1,110 +1,76 @@
-# GoTeacher
+<h1 align="center">Hi, I'm Moatasem Elsayed 👋</h1>
+<h3 align="center">Full-Stack Developer · Open-Source Enthusiast · Lifelong Learner</h3>
 
-**Master Go the Interactive Way**
+<p align="center">
+  <a href="https://github.com/Moatasem-Elsayed">
+    <img src="https://img.shields.io/github/followers/Moatasem-Elsayed?label=Follow&style=social" alt="GitHub followers" />
+  </a>
+</p>
 
-GoTeacher is an interactive Go (Golang) learning platform — a single-page application that teaches Go through hands-on lessons, a built-in code editor/compiler, quizzes, and gamified progress tracking.
-<img width="1843" height="929" alt="image" src="https://github.com/user-attachments/assets/cfb9b7f9-c0b2-4087-ba29-97df71f8c1df" />
+---
 
-## Features
+## 🙋‍♂️ About Me
 
-- **12-Chapter Go Curriculum** — From "Hello, Go!" to real-world projects (CLI, REST API, Web Server, Database)
-- **Built-in Go Code Editor** — CodeMirror 6 with syntax highlighting, autocomplete, and live compilation via the Go Playground API
-- **Interactive Quizzes** — 10 quizzes with multiple-choice questions, scoring, and explanations
-- **Gamification** — XP, levels, daily streaks, and 12 achievements
-- **Dark/Light Themes** — Persisted theme preference
-- **Free-form Playground** — Experiment with Go templates outside of lessons
-- **Progress Tracking** — Per-lesson and per-chapter progress, all saved locally via IndexedDB
-- **Responsive Design** — Works on desktop and mobile
+- 💻 I'm a passionate developer who loves building clean, interactive web experiences.
+- 🎓 Always learning — currently diving deep into **Go (Golang)**, **JavaScript**, and modern web tooling.
+- 🚀 I enjoy creating developer-focused tools and educational platforms.
+- 🌍 Open to collaboration on interesting open-source projects.
 
-## Tech Stack
+---
 
-| Category | Technology |
-|---|---|
-| Build | Vite 8 |
-| Language | Vanilla JavaScript (ES Modules) |
-| Editor | CodeMirror 6 |
-| Markdown | marked |
-| Storage | IndexedDB |
-| Compiler | go.dev/_/compile API |
-| Styling | Pure CSS with Custom Properties |
+## 🛠️ Skills & Tech Stack
 
-## Getting Started
+**Languages**
 
-### Prerequisites
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
 
-- [Node.js](https://nodejs.org/) (v18+)
+**Tools & Frameworks**
 
-### Install & Run
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
 
-```bash
-npm install
-npm run dev
-```
+---
 
-The dev server starts at `http://localhost:5173`.
+## 🚀 Featured Projects
 
-Or use the convenience script:
+### [GoTeacher](https://github.com/Moatasem-Elsayed/goTeacher)
+> **Master Go the Interactive Way**
 
-```bash
-bash start.sh
-```
+An interactive Go (Golang) learning platform — a single-page application that teaches Go through hands-on lessons, a built-in code editor/compiler, quizzes, and gamified progress tracking.
 
-### Production Build
+- 📚 12-chapter curriculum from basics to real-world projects
+- ✏️ Built-in Go editor powered by CodeMirror 6 with live compilation
+- 🎮 Gamification: XP, levels, daily streaks, and achievements
+- 🌙 Dark/Light theme with persistent preferences
+- 💾 Offline-capable via IndexedDB
 
-```bash
-npm run build    # Output to dist/
-npm run preview  # Preview the production build
-```
+**Tech:** Vanilla JS · Vite · CodeMirror 6 · IndexedDB · Go Playground API
 
-> **Note:** The Go compiler proxy (`/compile` → `go.dev/_/compile`) is only available in development mode. For production, configure a reverse proxy (e.g., Nginx) to handle `/compile` requests.
+---
 
-## Project Structure
+## 📊 GitHub Stats
 
-```
-src/
-├── main.js              # App bootstrap and route definitions
-├── router.js            # Custom hash-based SPA router
-├── store.js             # State management (IndexedDB + pub/sub)
-├── components/
-│   ├── CodeEditor.js    # CodeMirror 6 Go editor
-│   ├── Navbar.js        # Top navigation bar
-│   ├── Quiz.js          # Interactive quiz component
-│   └── Sidebar.js       # Lesson navigation sidebar
-├── pages/
-│   ├── Home.js          # Landing/dashboard page
-│   ├── LessonView.js    # Lesson page (content + editor + quiz)
-│   ├── Playground.js    # Free-form Go coding playground
-│   └── Profile.js       # User profile with stats & achievements
-├── services/
-│   └── compiler.js      # Go Playground API integration
-├── data/
-│   ├── curriculum.js    # 12-chapter Go curriculum
-│   ├── quizzes.js       # Quiz definitions
-│   └── achievements.js  # Achievement definitions
-├── styles/              # CSS design system
-├── utils/
-│   ├── toast.js         # Toast notification system
-│   └── confetti.js      # Confetti animation
-└── assets/              # Images and static assets
-```
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Moatasem-Elsayed&show_icons=true&theme=tokyonight&hide_border=true" alt="Moatasem's GitHub stats" />
+</p>
 
-## Curriculum
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Moatasem-Elsayed&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+</p>
 
-| Ch | Topic |
-|---|---|
-| 1 | Hello, Go! |
-| 2 | Variables & Types |
-| 3 | Control Flow |
-| 4 | Functions |
-| 5 | Data Structures |
-| 6 | Pointers |
-| 7 | Methods & Interfaces |
-| 8 | Error Handling |
-| 9 | Concurrency |
-| 10 | Packages & Modules |
-| 11 | Testing |
-| 12 | Real Projects |
+---
 
-## License
+## 📫 Contact
 
-Private project.
+- 🐙 GitHub: [@Moatasem-Elsayed](https://github.com/Moatasem-Elsayed)
+
+---
+
+<p align="center">
+  <i>Thanks for visiting — feel free to explore my repositories and leave a ⭐ if something catches your eye!</i>
+</p>
